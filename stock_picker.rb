@@ -17,5 +17,7 @@ def stock_picker(prices)
   p [best_buy, best_sell]
 end
 
-stock_picker([17,3,6,9,15,8,6,1,10])
-# => [1,4]  # for a profit of $15 - $3 == $12
+stock_picker([17,3,6,9,15,8,6,1,10])  # => [1, 4]
+stock_picker([1,2,3,4,5])             # => [0, 4]
+stock_picker([5,4,3,2,1])             # => [3, 0]
+
