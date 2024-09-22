@@ -12,7 +12,7 @@ This method handles edge cases like when the lowest day is the last day or the h
 
 This method handles edge cases like when the lowest day is the last day or the highest day is the first day. It will correctly return the best buy and sell days for those cases as well.
 
-```
+```ruby
 stock_picker([17,3,6,9,15,8,6,1,10])  # => [1, 4]
 stock_picker([1,2,3,4,5])             # => [0, 4]
 stock_picker([5,4,3,2,1])             # => [3, 0]
